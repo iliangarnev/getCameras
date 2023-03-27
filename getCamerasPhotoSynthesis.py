@@ -13,5 +13,6 @@ product_links = soup.find_all('a', class_='product_link')
 
 # Write the product links to a text file
 with open('productsFromPhotoSynthesis.txt', 'w', encoding="utf-8") as f:
+    f.write('PhotoSynthesis: ' + '\n')
     for link in product_links:
         f.write(link.get_text() + '\n')

@@ -1,8 +1,8 @@
 import os
 
 # Get the paths of the two files
-filePP = r"C:\Users\ilian\programs\getCameras\productsFromPhotoPavilion.txt"
-filePS = r"C:\Users\ilian\programs\getCameras\productsFromPhotoSynthesis.txt"
+filePP = r"/home/iliangarnev/Programs/camera/getCameras/productsFromPhotoPavilion.txt"
+filePS = r"/home/iliangarnev/Programs/camera/getCameras/productsFromPhotoSynthesis.txt"
 
 # Create the path for the new file
 new_file_path = os.path.join(os.path.dirname(filePP), "listOfCameras.txt")
